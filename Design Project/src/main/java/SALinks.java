@@ -43,6 +43,7 @@ public class SALinks {
 								link = "http://seekingalpha.com" + link;
 								links.add(link);
 								//System.out.println(link);
+								// test
 							}
 						}
 					}
