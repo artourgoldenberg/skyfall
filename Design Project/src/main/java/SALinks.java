@@ -19,7 +19,7 @@ public class SALinks {
 		client.getParams().setParameter("http.useragent", "Test Client");
 
 		BufferedReader br = null;
-		for(int page = 2; page < 51; page++) {
+		for(int page = 1; page < 2; page++) {
 			PostMethod method = new PostMethod("http://seekingalpha.com/account/ajax_headlines_content");
 			method.addParameter("type", "all");
 			method.addParameter("page", Integer.toString(page));
@@ -65,7 +65,7 @@ public class SALinks {
 		return links;
 	}
 	
-	public static void main(String[] args) {
-		getLinks("bac");
-	}
+//	public static void main(String[] args) {
+//		getLinks("bac");
+//	}
 }
