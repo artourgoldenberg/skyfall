@@ -48,6 +48,11 @@
 		<groupId>commons-httpclient</groupId>
 		<artifactId>commons-httpclient</artifactId>
 		<version>3.0.1</version>
-	</dependency>                
+	</dependency>     
+	<dependency>
+      	<groupId>org.xerial</groupId>
+      	<artifactId>sqlite-jdbc</artifactId>
+      	<version>3.5.9</version>
+    </dependency>                   
   </dependencies>
 </project>
