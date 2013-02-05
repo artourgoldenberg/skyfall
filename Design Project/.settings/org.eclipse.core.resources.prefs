@@ -1,4 +1,13 @@
+<<<<<<< HEAD
 eclipse.preferences.version=1
 encoding//src/main/java=UTF-8
 encoding//src/test/java=UTF-8
+=======
+#Tue Jan 29 17:18:02 EST 2013
+eclipse.preferences.version=1
+encoding//src/main/java=UTF-8
+encoding//src/main/resources=UTF-8
+encoding//src/test/java=UTF-8
+encoding//src/test/resources=UTF-8
+>>>>>>> 5f9e63b033fa63e7864df7f03807fbf94d2401b9
 encoding/<project>=UTF-8
